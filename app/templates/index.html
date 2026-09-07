@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Controle de Estoque e Validade</title>
+</head>
+<body>
+    <h1>Controle de Estoque e Validade</h1>
+    <h2>Mercearia do Beto</h2>
+    <div class="form"> 
+        <h3>Adicionar Produto</h3>
+        <form action="/add" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" name="name" required>
+            <label for="batch">Lote:</label>
+            <input type="text" name="batch" required>
+            <label for="quantity">Quantidade:</label>
+            <input type="number" name="quantity" required>
+            <label for="expiration_date">Data de Validade:</label>
+            <input type="date" name="expiration_date" required>
+            <input type="submit" value="Cadastrar">
+    
+        </form>
+    </div>
+</body>
+</html>
